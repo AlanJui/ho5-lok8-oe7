@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
+
+        body,
+        input,
+        button,
+        select,
+        textarea {
+            /*
+            font-family: "標楷體", 'Noto Sans TC', "微軟正黑體", "Helvetica Neue", Helvetica, Arial, "微软雅黑", sans-serif;
+            */
+            font-family: BopomofoRuby;
+        }
+
+        body {
+            font-size: 40px;
+            line-height: 80px;
+        }
+
+        ruby {
+            /* in this case, use OpenType feature 'vkrn' instead of 'mark' */
+            /*
+            font-feature-settings: "vkrn";
+            -ms-font-feature-settings: "vkrn";
+            -webkit-font-feature-settings: "vkrn";
+            -o-font-feature-settings: "vkrn";
+            */
+        }
+
+        rt {
+            font-size: 0.5em;
+            letter-spacing: 0;
+            ruby-align: center;
+            /* it seems ruby-align properties doesn't implied, text-align instead */
+            text-align: center;
+            text-orientation: upright;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <ruby>
+            閣<rt>koh</rt>
+            一<rt>chi̍t</rt>
+            擺<rt>pái</rt>
+        </ruby>
+        真心
+        <ruby>
+            說<rt>soe</rt>
+            多<rt>to</rt>
+            謝<rt>siā</rt>
+        </ruby>
+        。
+    </div>
+
+    <br />
+
+    <div>
+        <ruby>閣一擺<rt>koh-chi̍t-pái</rt></ruby>
+        真心
+        <ruby>說多謝<rt>soeh-to-siā</rt></ruby>
+        ，這篇
+        <ruby>躼躼長<rt>lò-lò-tn̂g</rt></ruby>
+        ，
+        <ruby>又閣<rt>iū-koh</rt></ruby>
+        <ruby>詳細<rt>siông-sè</rt></ruby>
+        的解說
+        <ruby>予<rt>hō͘</rt></ruby>
+        我受益非淺。
+    </div>
+
+    <br />
+
+    <div>
+        <ruby>
+            臺<rp>（</rp>
+            <rt>ㄊㄞˊ</rt>
+            <rp>）</rp>
+            北<rp>（</rp>
+            <rt>ㄅㄟˇ</rt>
+            <rp>）</rp>
+        </ruby>
+    </div>
+</body>
+
+</html>
