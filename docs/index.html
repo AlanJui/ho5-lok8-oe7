@@ -15,8 +15,12 @@
 
         @font-face {
             font-family: BopomofoRuby;
-            src: local('./assets/fonts/BopomofoRuby1909-v1-Regular'),
-                 url(/assets/fonts/BopomofoRuby1909-v1-Regular.ttf);
+            src: url(BopomofoRuby1909-v1-Regular.ttf);
+        }
+
+        @font-face {
+            font-family: HoLokOe;
+            src: url(Iansui094-Regular.ttf);
         }
 
         body, input, button, select, textarea {
@@ -32,12 +36,12 @@
         }
 
         .zhu_yin {
-            font-family: serif;
             font-size: 48px;
             line-height: 1.2;
         }
 
         rt {
+            font-family: Arial;
             font-size: 45%;
             ruby-merge: separate;
             writing-mode: horizontal-tb;
