@@ -6,79 +6,81 @@
         漢字横排，注音：方音在漢字右側，及下方擺白話字拚音
     </title>
     <meta charset="UTF-8">
-    <style>
-        @import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
-        /*****
-        @font-face {
-            font-family: BopomofoRuby;
-            src: local('./assets/fonts/BopomofoRuby1909-v1-Regular'),
-                url(/assets/fonts/BopomofoRuby1909-v1-Regular.ttf);
-        }
-        *****/
-        @font-face {
-            font-family: BopomofoRuby;
-            src: url(BopomofoRuby1909-v1-Regular.ttf);
-        }
+    <link rel="stylesheet" href="assets/styles/styles.css">
 
-        @font-face {
-            font-family: Ho-Lok-Oe;
-            src: url(Iansui094-Regular.ttf);
-        }
+    // <style>
+    //     @import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
+    //     /*****
+    //     @font-face {
+    //         font-family: BopomofoRuby;
+    //         src: local('./assets/fonts/BopomofoRuby1909-v1-Regular'),
+    //             url(/assets/fonts/BopomofoRuby1909-v1-Regular.ttf);
+    //     }
+    //     *****/
+    //     @font-face {
+    //         font-family: BopomofoRuby;
+    //         src: url(BopomofoRuby1909-v1-Regular.ttf);
+    //     }
 
-        body, input, button, select, textarea {
-            font-family: "標楷體", 'Noto Sans TC', "微軟正黑體", "Helvetica Neue", Helvetica, Arial, "微软雅黑", sans-serif;
-            line-height: 1.8;
-            letter-spacing: 2px;
-            margin: 10px 50px;
-        }
+    //     @font-face {
+    //         font-family: Ho-Lok-Oe;
+    //         src: url(Iansui094-Regular.ttf);
+    //     }
 
-        a {
-            text-decoration: none;
-        }
+    //     body, input, button, select, textarea {
+    //         font-family: "標楷體", 'Noto Sans TC', "微軟正黑體", "Helvetica Neue", Helvetica, Arial, "微软雅黑", sans-serif;
+    //         line-height: 1.8;
+    //         letter-spacing: 2px;
+    //         margin: 10px 50px;
+    //     }
 
-        h2 {
-            font-family: sans-serif;
-        }
+    //     a {
+    //         text-decoration: none;
+    //     }
 
-        /***************************
-        .zhu_yin {
-            font-family: 'Noto Serif TC';
-            font-size: 48px;
-            line-height: 1.4;
-            font-family: BopomofoRuby;
-        }
-        **************/
-        .zhu_yin {
-            font-size: 48px;
-            line-height: 1.2;
-        }
+    //     h2 {
+    //         font-family: sans-serif;
+    //     }
 
-        rt {
-            font-family: sans-serif;
-            font-size: 45%;
-            ruby-merge: separate;
-            writing-mode: horizontal-tb;
-            color: darkcyan;
-        }
+    //     /***************************
+    //     .zhu_yin {
+    //         font-family: 'Noto Serif TC';
+    //         font-size: 48px;
+    //         line-height: 1.4;
+    //         font-family: BopomofoRuby;
+    //     }
+    //     **************/
+    //     .zhu_yin {
+    //         font-size: 48px;
+    //         line-height: 1.2;
+    //     }
 
-        rtc {
-            font-family: BopomofoRuby;
-            font-size: 30%;
-            display: inline-block;
-            ruby-position: inter-character;
-            writing-mode: vertical-rl;
-            text-orientation: upright;
-            vertical-align: middle;
-            padding-right: 0.4rem;
-            color: brown;
-        }
+    //     rt {
+    //         font-family: sans-serif;
+    //         font-size: 45%;
+    //         ruby-merge: separate;
+    //         writing-mode: horizontal-tb;
+    //         color: darkcyan;
+    //     }
 
-        ruby {
-            ruby-position: under;
-            ruby-align: center;
-            ruby-merge: auto;
-        }
-    </style>
+    //     rtc {
+    //         font-family: BopomofoRuby;
+    //         font-size: 30%;
+    //         display: inline-block;
+    //         ruby-position: inter-character;
+    //         writing-mode: vertical-rl;
+    //         text-orientation: upright;
+    //         vertical-align: middle;
+    //         padding-right: 0.4rem;
+    //         color: brown;
+    //     }
+
+    //     ruby {
+    //         ruby-position: under;
+    //         ruby-align: center;
+    //         ruby-merge: auto;
+    //     }
+    // </style>
 </head>
 
 <body>
