@@ -12,7 +12,7 @@ font-family: 'Noto Serif TC', sans-serif;
   font-family: 'HoLokOe';
   src:
     local("Iansui094 Regular"),
-    url('assets/fonts/Iansui094-Regular.ttf');
+    url('../fonts/Iansui094-Regular.ttf');
 }
 
 body, input, button, select, textarea {
