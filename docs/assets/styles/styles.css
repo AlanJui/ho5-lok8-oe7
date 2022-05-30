@@ -2,10 +2,10 @@
 font-family: 'Noto Serif TC', sans-serif;
 
 @font-face {
-  font-family: 'Bopomo';
+  font-family: 'BopomofoRuby';
   src:
     local('BopomofoRuby1909-v1-Regular'),
-    url('BopomofoRuby1909-v1-Regular.ttf');
+    url('../fonts/BopomofoRuby1909-v1-Regular.ttf');
 }
 
 @font-face {
@@ -41,7 +41,7 @@ rt {
 }
 
 rtc {
-  font-family: Bopomo, HoLokOe;
+  font-family: BopomofoRuby;
   font-size: 30%;
   display: inline-block;
   ruby-position: inter-character;
