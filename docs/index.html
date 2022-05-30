@@ -8,19 +8,17 @@
     <meta charset="UTF-8">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500&display=swap');
-        font-family: 'Noto Serif TC', serif;
-
-        @import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
-        font-family: 'Noto Sans TC', sans-serif;
+        font-family: 'Noto Serif TC', sans-serif;
 
         @font-face {
             font-family: BopomofoRuby;
-            src: local('./assets/fonts/BopomofoRuby1909-v1-Regular'),
-                    url(/assets/fonts/BopomofoRuby1909-v1-Regular.ttf);
+            src: url(BopomofoRuby1909-v1-Regular.ttf);
+        }
 
         @font-face {
-            font-family: HoLokOe;
-            src: url(/assets/fonts/Iansui094-Regular.ttf);
+            font-family: Ho-Lok-Oe;
+            src: local("Iansui094 Regular"),
+                url(/assets/fonts/Iansui094-Regular.ttf);
         }
 
         body, input, button, select, textarea {
