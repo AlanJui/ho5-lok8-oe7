@@ -6,14 +6,18 @@
         漢字横排，注音：方音在漢字右側，及下方擺白話字拚音
     </title>
     <meta charset="UTF-8">
-    <link type="text/css" rel="stylesheet" href="http://www.cmex.org.tw/phon/phon.css" charset="utf8">
     <style>
-        @charset "UTF-8";
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500&display=swap');
+        font-family: 'Noto Serif TC', serif;
+
         @import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
+        font-family: 'Noto Sans TC', sans-serif;
+
         @font-face {
             font-family: BopomofoRuby;
             src: local('./assets/fonts/BopomofoRuby1909-v1-Regular'),
-                url(/assets/fonts/BopomofoRuby1909-v1-Regular.ttf);
+                 url(/assets/fonts/BopomofoRuby1909-v1-Regular.ttf);
+        }
 
         body, input, button, select, textarea {
             font-family: "標楷體", 'Noto Sans TC', "微軟正黑體", "Helvetica Neue", Helvetica, Arial, "微软雅黑", sans-serif;
@@ -22,28 +26,18 @@
             margin: 10px 50px;
         }
 
-        a {
-            text-decoration: none;
-        }
-
-        h2 {
+        /*********************************
+        .zhu_yin {
+            font-family: serif;
             font-family: sans-serif;
         }
-
-        /***************************
-        .zhu_yin {
-            font-family: 'Noto Serif TC';
-            font-size: 48px;
-            line-height: 1.4;
-        }
-        **************/
+        *********************************/
         .zhu_yin {
             font-size: 48px;
             line-height: 1.2;
         }
 
         rt {
-            font-family: sans-serif;
             font-size: 45%;
             ruby-merge: separate;
             writing-mode: horizontal-tb;
