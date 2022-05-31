@@ -587,6 +587,111 @@ html .mobile .mobile-date-outer, html .mobile .blog-pager {
   height: 100%;
   text-align: center;
 }
+
+/* User's CSS
+----------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@700&display=swap');
+
+@font-face {
+    font-family: BopomofoRuby;
+    src:
+        local("BopomofoRuby1909-v1-Regular"),
+        url("https://github.com/cmex-30/Bopomofo_on_Web/raw/master/font/BopomofoRuby1909-v1-Regular.ttf");
+}
+
+.vert {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    height: 30rem;
+}
+
+rt {
+	color: #3cb371;
+	font-family: Arial;
+    font-size: 45%;
+    text-align: center;
+    letter-spacing: 0px;
+	ruby-position: under;
+	writing-mode: horizontal-tb;
+	ruby-align: center;
+	ruby-merge: separate;
+}
+
+rtc {
+	color: chocolate;
+    font-family: BopomofoRuby;
+    font-size: 30%;
+    text-align: center;
+	ruby-position: inter-character;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 0.2rem;
+    white-space: nowrap;
+}
+
+.ruby {
+    font-variant-east-asian: ruby;
+    -moz-font-feature-settings: "ruby";
+    -webkit-font-feature-settings: "ruby";
+    font-feature-settings: "ruby";
+}
+
+.fifteen_yin {
+	font-family: 'Noto Serif TC', serif;
+    ruby-position: inter-character;
+    font-size: 42px;
+    letter-spacing: 0.2em;
+	line-height: 2.0;
+}
+
+.fifteen_yin rt {
+	color: blue;
+	font-family: Arial;
+    font-size: 30%;
+    text-align: center;
+    padding-right: 0.8rem;
+    letter-spacing: 0px;
+}
+
+.poj {
+	font-family: 'Noto Sans TC', sans-serif;
+    font-size: 42px;
+	line-height: 2.0;
+    letter-spacing: 0.2em;
+}
+
+.zhu_yin {
+	font-family: 'Noto Serif TC', serif;
+    ruby-position: inter-character;
+    font-size: 42px;
+}
+
+.zhu_yin rt {
+	color: #3cb371;
+	writing-mode: horizontal-tb;
+	ruby-position: under;
+	ruby-align: space-around;
+}
+
+.zhu_yin rtc {
+	color: chocolate;
+    font-family: BopomofoRuby;
+    font-size: 30%;
+	ruby-position: inter-character;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding-right: 0.4rem;
+    letter-spacing: 0.0em;
+    white-space: nowrap;
+}
+
 ]]></b:skin>
 
     <b:template-skin>
