@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500&display=swap');
+font-family: 'Noto Serif TC', sans-serif;
+
+@font-face {
+  font-family: 'BopomofoRuby';
+  src:
+    local('BopomofoRuby1909-v1-Regular'),
+    url('assets/fonts/BopomofoRuby1909-v1-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'HoLokOe';
+  src:
+    local("Iansui094 Regular"),
+    url('assets/fonts/Iansui094-Regular.ttf');
+}
+
+body, input, button, select, textarea {
+  font-family: "標楷體", 'Noto Sans TC', "微軟正黑體", "Helvetica Neue", Helvetica, Arial, "微软雅黑", sans-serif;
+  line-height: 1.2;
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin: 10px 50px;
+}
+
+h2 {
+  font-family: sans-serif;
+}
+
+.zhu_yin {
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+rt {
+  font-family: Arial;
+  font-size: 45%;
+  ruby-merge: separate;
+  writing-mode: horizontal-tb;
+  color: darkcyan;
+}
+
+rtc {
+  font-family: BopomofoRuby;
+  font-size: 30%;
+  display: inline-block;
+  ruby-position: inter-character;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  vertical-align: middle;
+  padding-right: 0.4rem;
+  color: brown;
+}
+
+ruby {
+  ruby-position: under;
+  ruby-align: center;
+  ruby-merge: auto;
+}
