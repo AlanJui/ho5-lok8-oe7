@@ -70,6 +70,18 @@ rtc {
     line-height: 1.8;
 }
 
+.fifteen_yin {
+    font-family: 'Noto Serif TC';
+    font-size: 48px;
+}
+
+.fifteen_yin rt {
+    font-family: Arial;
+    font-size: 30%;
+    color: rosybrown;
+    text-align: center;
+}
+
 img {
     display: block;
     margin-left: auto;
