@@ -8,7 +8,7 @@
 
 body {
     font-family: "標楷體", 'Noto Serif TC', "微軟正黑體", "Helvetica Neue", Helvetica, Arial, "微软雅黑", sans-serif;
-    line-height: 1.8;
+    line-height: 200%;
     letter-spacing: 2px;
     margin: 10px 30px 10px 20px;
 }
@@ -22,6 +22,14 @@ h2 {
     text-align: center;
 }
 
+#title {
+    color: cornflowerblue;
+    font-size: larger;
+    font-family: "Noto Serif TC";
+    text-align: center;
+    page-break-after: always;
+}
+
 .vert {
     writing-mode: vertical-rl;
     text-orientation: upright;
@@ -30,9 +38,10 @@ h2 {
 
 rt {
     font-family: Arial;
-    font-size: 50%;
+    font-size: 45%;
     color: rosybrown;
     text-align: center;
+    padding-right: 0.3rem;
 }
 
 rtc {
@@ -45,21 +54,21 @@ rtc {
     text-orientation: upright;
     display: inline-block;
     vertical-align: middle;
-    /* padding-right: 0.2rem; */
+    padding-right: 0.3rem;
     white-space: nowrap;
 }
 
-.ruby {
+ruby { 
     font-variant-east-asian: ruby;
     -moz-font-feature-settings: "ruby";
     -webkit-font-feature-settings: "ruby";
     font-feature-settings: "ruby";
-    ruby-merge: collapse;
 }
 
 .poj {
     font-family: 'Noto Serif TC';
     font-size: 48px;
+    line-height: 2.4;
 }
 
 .zhu_yin {
@@ -67,7 +76,7 @@ rtc {
     ruby-position: inter-character;
     letter-spacing: 0px;
     font-size: 48px;
-    line-height: 1.8;
+    line-height: 2.0;
 }
 
 .fifteen_yin {
@@ -84,6 +93,7 @@ rtc {
 
 img {
     display: block;
+    margin-top: 3cm;
     margin-left: auto;
     margin-right: auto;
 }
