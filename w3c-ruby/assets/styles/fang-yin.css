@@ -23,7 +23,7 @@ h2 {
 }
 
 #title {
-    color: cornflowerblue;
+    color: darkblue;
     font-size: larger;
     font-family: "Noto Serif TC";
     text-align: center;
@@ -71,6 +71,19 @@ ruby {
     line-height: 2.4;
 }
 
+.pin_yin {
+    font-family: 'Noto Serif TC';
+    font-size: 48px;
+    line-height: 2.4;
+}
+
+.pin_yin rt {
+    font-family: Arial;
+    font-size: 45%;
+    color: rosybrown;
+    text-align: center;
+}
+
 .zhu_yin {
     font-family: 'Noto Serif TC';
     ruby-position: inter-character;
@@ -82,12 +95,13 @@ ruby {
 .fifteen_yin {
     font-family: 'Noto Serif TC';
     font-size: 48px;
+    line-height: 2.0;
 }
 
 .fifteen_yin rt {
     font-family: Arial;
     font-size: 30%;
-    color: rosybrown;
+    color: blue;
     text-align: center;
 }
 
