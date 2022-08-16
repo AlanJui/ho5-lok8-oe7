@@ -1,22 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500&display=swap');
-font-family: 'Noto Serif TC', sans-serif;
-
 @font-face {
   font-family: 'BopomofoRuby';
   src:
     local('BopomofoRuby1909-v1-Regular'),
-    url('../fonts/BopomofoRuby1909-v1-Regular.ttf');
+    url('./assets/fonts/BopomofoRuby1909-v1-Regular.ttf');
 }
 
-@font-face {
-  font-family: 'HoLokOe';
-  src:
-    local("Iansui094 Regular"),
-    url('../fonts/Iansui094-Regular.ttf');
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500&display=swap');
 
 body, input, button, select, textarea {
-  font-family: "標楷體", 'Noto Sans TC', "微軟正黑體", "Helvetica Neue", Helvetica, Arial, "微软雅黑", sans-serif;
+  font-family: "Noto Serif TC", serif;
   line-height: 1.2;
   font-size: 24px;
   letter-spacing: 2px;
@@ -44,7 +36,6 @@ rtc {
   font-family: BopomofoRuby;
   font-size: 30%;
   display: inline-block;
-  ruby-position: inter-character;
   writing-mode: vertical-rl;
   text-orientation: upright;
   vertical-align: middle;
@@ -52,8 +43,9 @@ rtc {
   color: brown;
 }
 
-ruby {
-  ruby-position: under;
-  ruby-align: center;
-  ruby-merge: auto;
+.ruby {
+    font-variant-east-asian: ruby;
+    -moz-font-feature-settings: "ruby";
+    -webkit-font-feature-settings: "ruby";
+    font-feature-settings: "ruby";
 }
