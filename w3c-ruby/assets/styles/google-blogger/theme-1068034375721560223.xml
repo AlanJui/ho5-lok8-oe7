@@ -657,6 +657,13 @@ rtc {
     letter-spacing: 0px;
 }
 
+.pin_yin {
+	font-family: 'Noto Sans TC', sans-serif;
+    font-size: 42px;
+	line-height: 2.0;
+    letter-spacing: 0.2em;
+}
+
 .poj {
 	font-family: 'Noto Sans TC', sans-serif;
     font-size: 42px;
@@ -668,6 +675,7 @@ rtc {
 	font-family: 'Noto Serif TC', serif;
     ruby-position: inter-character;
     font-size: 42px;
+	line-height: 2.0;
 }
 
 .zhu_yin rt {
