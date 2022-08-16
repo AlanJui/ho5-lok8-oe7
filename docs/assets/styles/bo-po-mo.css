@@ -12,7 +12,7 @@ input,
 button,
 select,
 textarea {
-    font-family: "標楷體", 'Noto Sans TC', "微軟正黑體", "Helvetica Neue", Helvetica, Arial, "微软雅黑", sans-serif;
+    font-family: "標楷體", 'Noto Serif TC', sans-serif;
     line-height: 1.8;
     letter-spacing: 2px;
     margin: 10px 50px;
