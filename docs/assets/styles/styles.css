@@ -7,11 +7,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500&display=swap');
 
-body, input, button, select, textarea {
+body,
+input,
+button,
+select,
+textarea {
   font-family: "Noto Serif TC", serif;
-  line-height: 1.2;
+  line-height: 1.8;
   font-size: 24px;
-  letter-spacing: 2px;
+  letter-spacing: 0px;
   margin: 10px 50px;
 }
 
@@ -21,7 +25,16 @@ h2 {
 
 .zhu_yin {
   font-size: 48px;
-  line-height: 1.2;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.4em;
+}
+
+.author {
+  text-align: right;
+  font-size: 0.8em;
 }
 
 rt {
@@ -44,8 +57,8 @@ rtc {
 }
 
 .ruby {
-    font-variant-east-asian: ruby;
-    -moz-font-feature-settings: "ruby";
-    -webkit-font-feature-settings: "ruby";
-    font-feature-settings: "ruby";
+  font-variant-east-asian: ruby;
+  -moz-font-feature-settings: "ruby";
+  -webkit-font-feature-settings: "ruby";
+  font-feature-settings: "ruby";
 }
