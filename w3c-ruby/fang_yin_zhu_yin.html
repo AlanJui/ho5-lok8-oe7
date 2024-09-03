@@ -11,91 +11,91 @@
 -->
 <html lang="zh-TW">
 
-  <head>
-    <title>
-      CSS Bopomofo Test
-    </title>
-    <meta charset="UTF-8">
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500&display=swap');
+<head>
+  <title>
+    CSS Bopomofo Test
+  </title>
+  <meta charset="UTF-8">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500&display=swap');
 
-      @font-face {
-        font-family: BopomofoRuby;
-        src: local('./assets/fonts/BopomofoRuby1909-v1-Regular'),
+    @font-face {
+      font-family: BopomofoRuby;
+      src: local('BopomofoRuby1909-v1-Regular'),
         url(/assets/fonts/BopomofoRuby1909-v1-Regular.ttf);
-      }
+    }
 
-      body {
-        font-family: "標楷體", 'Noto Serif TC', "微軟正黑體", "Helvetica Neue", Helvetica, Arial, "微软雅黑", sans-serif;
-        line-height: 1.8;
-        letter-spacing: 2px;
-      }
+    body {
+      font-family: "標楷體", 'Noto Serif TC', "微軟正黑體", "Helvetica Neue", Helvetica, Arial, "微软雅黑", sans-serif;
+      line-height: 1.8;
+      letter-spacing: 2px;
+    }
 
-      a {
-        text-decoration: none;
-      }
+    a {
+      text-decoration: none;
+    }
 
-      h2 {
-        font-family: sans-serif;
-      }
+    h2 {
+      font-family: sans-serif;
+    }
 
-      .vert {
-        writing-mode: vertical-rl;
-        text-orientation: upright;
-        height: 30rem;
-      }
+    .vert {
+      writing-mode: vertical-rl;
+      text-orientation: upright;
+      height: 30rem;
+    }
 
-      rt {
-        font-family: Arial;
-        font-size: 50%;
-        text-align: center;
-      }
+    rt {
+      font-family: Arial;
+      font-size: 50%;
+      text-align: center;
+    }
 
-      rtc {
-        font-family: BopomofoRuby;
-        font-size: 40%;
-        letter-spacing: 0;
-        text-align: center;
-        writing-mode: vertical-rl;
-        text-orientation: upright;
-        display: inline-block;
-        vertical-align: middle;
-        padding-right: 0.3rem;
-        white-space: nowrap;
-      }
+    rtc {
+      font-family: BopomofoRuby;
+      font-size: 40%;
+      letter-spacing: 0;
+      text-align: center;
+      writing-mode: vertical-rl;
+      text-orientation: upright;
+      display: inline-block;
+      vertical-align: middle;
+      padding-right: 0.3rem;
+      white-space: nowrap;
+    }
 
-      .ruby {
-        font-variant-east-asian: ruby;
-        -moz-font-feature-settings: "ruby";
-        -webkit-font-feature-settings: "ruby";
-        font-feature-settings: "ruby";
-      }
+    .ruby {
+      font-variant-east-asian: ruby;
+      -moz-font-feature-settings: "ruby";
+      -webkit-font-feature-settings: "ruby";
+      font-feature-settings: "ruby";
+    }
 
-      .poj {
-        font-family: 'Noto Serif TC';
-        font-size: 48px;
-      }
+    .poj {
+      font-family: 'Noto Serif TC';
+      font-size: 48px;
+    }
 
-      .zhu_yin {
-        /*
+    .zhu_yin {
+      /*
            font-family: BopomofoRuby, sans-serif;
            font-family: 'NotoSansTC-Regular';
          */
-        font-family: 'Noto Serif TC';
-        ruby-position: inter-character;
-        letter-spacing: 0px;
-        font-size: 48px;
-        line-height: 1.8;
-      }
-    </style>
+      font-family: 'Noto Serif TC';
+      ruby-position: inter-character;
+      letter-spacing: 0px;
+      font-size: 48px;
+      line-height: 1.8;
+    }
+  </style>
 
-  </head>
+</head>
 
-  <body>
-    <h2>Case 6, horizontal writing Bopomofo in inter-character ruby</h2>
+<body>
+  <h2>Case 6, horizontal writing Bopomofo in inter-character ruby</h2>
 
-    <div class="poj">
-      <p>
+  <div class="poj">
+    <p>
       <ruby>閣一擺<rt>koh-chi̍t-pái</rt></ruby>
       真心
       <ruby>說多謝<rt>soeh-to-siā</rt></ruby>
@@ -107,11 +107,11 @@
       的解說
       <ruby>予<rt>hō͘</rt></ruby>
       我受益非淺。
-      </p>
-    </div>
+    </p>
+  </div>
 
-    <div class="zhu_yin">
-      <p>
+  <div class="zhu_yin">
+    <p>
       《
       <ruby>楚<rtc>ㄘㆦˋ</rtc></ruby>
       <ruby>辭<rtc>ㄙㄨˊ</rtc></ruby>
@@ -119,8 +119,8 @@
       <ruby>漁<rtc>ㆣㄨˊ</rtc></ruby>
       <ruby>父<rtc>ㄏㄨ˫</rtc></ruby>
       》
-      </p>
-      <p>
+    </p>
+    <p>
       <ruby>屈<rtc>ㄎㄨㆵ</rtc></ruby>
       <ruby>原<rtc>ㆣㄨㄢˊ</rtc></ruby>
       <ruby>既<rtc>ㄍㄧ˪</rtc></ruby>
@@ -146,8 +146,8 @@
       <ruby>枯<rtc>ㄍㆦ</rtc></ruby>
       <ruby>槁<rtc>ㄍㄜˋ</rtc></ruby>
       。
-      </p>
-      <p>
+    </p>
+    <p>
       <ruby>漁<rtc>ㆣㄨˊ</rtc></ruby>
       <ruby>父<rtc>ㄏㄨ˫</rtc></ruby>
       <ruby>見<rtc>ㄍㄧㄢ˪</rtc></ruby>
@@ -172,15 +172,15 @@
       <ruby>斯<rtc>ㄙㄨ</rtc></ruby>
       ？
       」
-      </p>
-    </div>
+    </p>
+  </div>
 
-    <p>
+  <p>
     為能正確顯示「注音符號」，請點擊以下連結，下載及安裝注音符號專用字型：
     <a href="https://github.com/cmex-30/Bopomofo_on_Web/blob/master/font/BopomofoRuby1909-v1-Regular.ttf">
       BopomofoRuby1909-v1-Regular.ttf
     </a>
-    </p>
-  </body>
+  </p>
+</body>
 
 </html>

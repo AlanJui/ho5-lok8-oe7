@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: BopomofoRuby;
-    src: local('./assets/fonts/BopomofoRuby1909-v1-Regular'),
+    src: local('BopomofoRuby1909-v1-Regular'),
         url(/assets/fonts/BopomofoRuby1909-v1-Regular.ttf);
 }
 
@@ -58,7 +58,7 @@ rtc {
     white-space: nowrap;
 }
 
-ruby { 
+ruby {
     font-variant-east-asian: ruby;
     -moz-font-feature-settings: "ruby";
     -webkit-font-feature-settings: "ruby";
